@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'praw==5.4.0',
+    'irc==17.0',
     'psycopg2-binary==2.7.5',
     'pyquery==1.4.0',
     'requests==2.19.1',
@@ -15,9 +15,9 @@ dev_requires = [
 ]
 
 setup(
-    name='roboragi',
-    author='Nihilate',
-    url='https://github.com/Nihilate/Roboragi',
+    name='roboragi-irc',
+    author='MineRobber9000',
+    url='https://github.com/MineRobber9000/Roboragi',
     license='AGPLv3+',
     install_requires=install_requires,
     packages=find_packages(),
